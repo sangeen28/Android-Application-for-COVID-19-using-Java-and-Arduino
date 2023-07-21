@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:background="@drawable/login_screen_11"
+
+    android:orientation="vertical"
+    tools:context=".EmailContact">
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="60dp"/>
+    <!-- <ImageView
+         android:layout_width="100dp"
+         android:layout_height="100dp"
+         android:layout_marginLeft="120dp"
+         android:src="@drawable/health_checkup_icon_login"/>
+ -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="20dp"/>
+    <com.google.android.material.textfield.TextInputEditText
+        android:layout_width="300dp"
+        android:layout_height="60sp"
+        android:id="@+id/mail"
+        android:inputType="textEmailAddress"
+        android:textColor="@color/black"
+
+        android:drawableStart="@drawable/admin_mail"
+        android:background="@drawable/edit_text"
+        android:textSize="16dp"
+        android:hint="Admin's E-mail"
+        android:textColorHint="@android:color/holo_red_dark"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:focusable="true"
+        android:paddingLeft="20dp"
+        android:gravity="center"
+
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="30dp"/>
+
+    <com.google.android.material.textfield.TextInputEditText
+        android:layout_width="300dp"
+        android:layout_height="60sp"
+        android:id="@+id/subject"
+        android:editable="false"
+        android:inputType="textEmailAddress"
+        android:textColor="@color/black"
+        android:drawableStart="@drawable/mail_subject"
+        android:background="@drawable/edit_text"
+        android:textSize="16dp"
+        android:hint="Subject"
+        android:textColorHint="@android:color/holo_red_dark"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:focusable="true"
+        android:paddingLeft="20dp"
+        android:gravity="center"
+
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="30dp"/>
+
+    <com.google.android.material.textfield.TextInputEditText
+        android:layout_width="300dp"
+        android:layout_height="60dp"
+        android:id="@+id/message"
+        android:editable="false"
+        android:background="@drawable/edit_text"
+        android:textSize="16dp"
+        android:textColor="@color/black"
+        android:hint="Message"
+        android:inputType="textPassword"
+        android:textColorHint="@android:color/holo_red_dark"
+        android:layout_marginLeft="15dp"
+        android:drawableLeft="@drawable/mail_message"
+        android:layout_marginRight="15dp"
+        android:paddingLeft="20dp"
+        android:gravity="center"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="30dp"/>
+
+    <Button
+        android:id="@+id/send"
+        android:layout_width="150dp"
+        android:layout_height="57dp"
+        android:layout_gravity="center"
+        android:background="@drawable/button_login"
+        android:text="Send Email"
+        android:textColor="@color/black"
+        android:textSize="20sp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="10dp"/>
+
+</LinearLayout>

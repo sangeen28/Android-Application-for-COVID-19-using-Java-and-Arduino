@@ -1,0 +1,253 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:background="@android:color/holo_orange_light"
+    android:gravity="center"
+    tools:context=".InitialActivity"
+    android:orientation="vertical">
+
+
+    <Spinner
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:entries="@array/countries"
+        android:id="@+id/user"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="40dp"/>
+
+    <Button
+        android:layout_width="200dp"
+        android:layout_height="60dp"
+        android:id="@+id/get"
+        android:text="Get"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:textSize="12dp"
+        android:id="@+id/data"/>
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:shrinkColumns="*"
+        >
+
+        <TableRow
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="@android:color/holo_blue_light">
+
+            <TextView
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:padding="18dip"
+                android:text="Country"
+                android:textColor="#000"
+                android:textSize="12dp" />
+
+            <TextView
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:padding="18dip"
+                android:text="T. Cases"
+                android:textColor="#000"
+                android:textSize="14dp" />
+            <TextView
+
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:padding="18dip"
+                android:text="Today Cases"
+                android:textColor="#000"
+                android:textSize="14dp" />
+            <TextView
+
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:padding="18dip"
+                android:text="T. Deaths"
+                android:textColor="#000"
+                android:textSize="14dp" />
+
+
+
+
+        </TableRow>
+        <TableRow
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="@android:color/holo_blue_bright">
+
+            <TextView
+
+                android:id="@+id/country"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:padding="18dip"
+                android:text=""
+                android:textColor="#000"
+                android:textSize="12dp" />
+
+            <TextView
+
+                android:id="@+id/t_cases"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:padding="18dip"
+                android:text=""
+                android:textColor="#000"
+                android:textSize="14dp" />
+            <TextView
+
+                android:id="@+id/today_cases"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:padding="18dip"
+                android:text=""
+                android:textColor="#000"
+                android:textSize="14dp" />
+
+
+            <TextView
+
+                android:id="@+id/t_deaths"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:padding="18dip"
+                android:text=""
+                android:textColor="#000"
+                android:textSize="14dp" />
+
+
+        </TableRow>
+
+
+
+        <TableRow
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+
+            android:background="@android:color/holo_blue_light">
+
+
+            <TextView
+
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:padding="18dip"
+                android:text="Today Deaths"
+                android:textColor="#000"
+                android:textSize="14dp" />
+            <TextView
+
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:padding="18dip"
+                android:text="Tests"
+                android:textColor="#000"
+                android:textSize="14dp" />
+
+            <TextView
+
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:padding="18dip"
+                android:text="Recovered"
+                android:textColor="#000"
+                android:textSize="14dp" />
+
+
+            <TextView
+
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:padding="18dip"
+                android:text="Continent"
+                android:textColor="#000"
+                android:textSize="14dp" />
+
+        </TableRow>
+        <TableRow
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="@android:color/holo_blue_bright">
+
+
+            <TextView
+
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:padding="18dip"
+                android:id="@+id/today_deaths"
+                android:textColor="#000"
+                android:textSize="14dp" />
+            <TextView
+
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:padding="18dip"
+                android:id="@+id/tests"
+                android:textColor="#000"
+                android:textSize="14dp" />
+
+            <TextView
+
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:padding="18dip"
+                android:id="@+id/recovered"
+                android:textColor="#000"
+                android:textSize="14dp" />
+            <TextView
+
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:padding="18dip"
+                android:id="@+id/continent"
+                android:textColor="#000"
+                android:textSize="14dp" />
+
+
+        </TableRow>
+
+
+
+
+    </TableLayout>
+
+
+</LinearLayout>

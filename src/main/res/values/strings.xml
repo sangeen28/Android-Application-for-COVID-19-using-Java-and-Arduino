@@ -1,0 +1,47 @@
+<resources>
+    <string name="app_name">Smart Mask</string>
+
+    <string-array name="countries">
+
+        <item>Afghanistan</item>
+        <item>Pakistan</item>
+        <item>China</item>
+        <item>India</item>
+        <item>Bangladesh</item>
+        <item>Bahrain</item>
+
+        <item>Albania</item>
+        <item>Algeria</item>
+        <item>Andorra</item>
+        <item>Angola</item>
+        <item>Anguilla</item>
+        <item>Argentina</item>
+        <item>Armenia</item>
+        <item>Aruba</item>
+        <item>Belarus</item>
+        <item>Belgium</item>
+        <item>Belize</item>
+        <item>Benin</item>
+        <item>Bermuda</item>
+        <item> Bhutan</item>
+
+
+        <item>Bolivia</item>
+        <item>Bosnia</item>
+        <item>Botswana</item>
+        <item>Brazil</item>
+        <item>British Virgin Islands</item>
+        <item>Brunei</item>
+        <item>Bulgaria</item>
+        <item>Burkina</item>
+        <item>Burundi</item>
+        <item>Capo Verde</item>
+        <item>Canada</item>
+        <item>Cameron</item>
+        <item>France</item>
+        <item>Australia</item>
+        <item>Italy</item>
+
+
+    </string-array>
+</resources>

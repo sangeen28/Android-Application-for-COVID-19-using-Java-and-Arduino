@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:background="@drawable/login_screen_11"
+    tools:context=".MainActivity">
+
+
+
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="60dp"/>
+   <!-- <ImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginLeft="120dp"
+        android:src="@drawable/health_checkup_icon_login"/>
+-->
+                 <TextView
+                     android:layout_width="match_parent"
+                     android:layout_height="20dp"/>
+    <com.google.android.material.textfield.TextInputEditText
+        android:layout_width="300dp"
+        android:layout_height="60sp"
+        android:id="@+id/user"
+        android:editable="false"
+        android:inputType="text"
+        android:textColor="@color/black"
+        android:drawableStart="@drawable/user_name"
+        android:background="@drawable/edit_text"
+        android:textSize="16dp"
+        android:hint="User Name"
+        android:textColorHint="@android:color/holo_red_dark"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:focusable="true"
+        android:paddingLeft="20dp"
+        android:gravity="center"
+
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="30dp"/>
+
+    <com.google.android.material.textfield.TextInputEditText
+        android:layout_width="300dp"
+        android:layout_height="60sp"
+        android:id="@+id/email"
+        android:editable="false"
+        android:inputType="textEmailAddress"
+        android:textColor="@color/black"
+        android:drawableStart="@drawable/mail_icon"
+        android:background="@drawable/edit_text"
+        android:textSize="16dp"
+        android:hint="Email"
+        android:textColorHint="@android:color/holo_red_dark"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:focusable="true"
+        android:paddingLeft="20dp"
+        android:gravity="center"
+
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="30dp"/>
+
+    <com.google.android.material.textfield.TextInputEditText
+        android:layout_width="300dp"
+        android:layout_height="60dp"
+        android:id="@+id/password"
+        android:editable="false"
+        android:background="@drawable/edit_text"
+        android:textSize="16dp"
+        android:textColor="@color/black"
+        android:hint="Password"
+        android:inputType="textPassword"
+        android:textColorHint="@android:color/holo_red_dark"
+        android:layout_marginLeft="15dp"
+        android:drawableLeft="@drawable/login_password_icon"
+        android:layout_marginRight="15dp"
+        android:paddingLeft="20dp"
+        android:gravity="center"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="30dp"/>
+
+    <Button
+        android:id="@+id/login"
+        android:layout_width="150dp"
+        android:layout_height="57dp"
+        android:layout_gravity="center"
+        android:background="@drawable/button_login"
+        android:text="Login"
+        android:textColor="@color/black"
+        android:textSize="20sp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="10dp"/>
+    <Button
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:textColor="@color/black"
+        android:id="@+id/signup"
+        android:textSize="20sp"
+        android:layout_gravity="center"
+        android:text="Register"
+        android:background="@drawable/button_login"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="10dp"/>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="280dp"
+        android:layout_height="30dp"
+        android:background="@drawable/login_screen_11"
+       >
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:background="@drawable/login_screen_11">
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:textColor="@android:color/holo_red_dark"
+        android:text="Forgot Password ?"
+        android:layout_marginRight="30dp"
+        android:layout_gravity="center"
+
+        android:gravity="center"
+        android:id="@+id/forget"/>
+
+
+        </RelativeLayout>
+
+    </androidx.cardview.widget.CardView>
+  <!--  <Button
+        android:layout_width="250dp"
+        android:layout_height="60dp"
+        android:textColor="@color/black"
+        android:id="@+id/location"
+        android:textSize="20sp"
+        android:layout_gravity="center"
+        android:text="Location"
+        android:theme="@style/button_design"
+        />-->
+
+
+
+</LinearLayout>

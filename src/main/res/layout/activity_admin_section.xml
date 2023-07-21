@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:orientation="vertical"
+    android:background="@color/green"
+    tools:context=".AdminSection">
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:id="@+id/viewdata"
+        android:layout_height="50dp"/>
+
+
+    <com.google.android.material.textfield.TextInputEditText
+        android:layout_width="300dp"
+        android:layout_height="60sp"
+        android:id="@+id/cnic"
+        android:editable="false"
+        android:inputType="textEmailAddress"
+        android:textColor="@color/black"
+        android:drawableStart="@drawable/email_icon"
+        android:background="@drawable/edit_text"
+        android:textSize="16dp"
+        android:hint="enter your email"
+        android:textColorHint="@color/white"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:focusable="true"
+        android:paddingLeft="12dp"
+        android:layout_gravity="center"
+        android:gravity="center"
+
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="40dp"/>
+    <com.google.android.material.textfield.TextInputEditText
+        android:layout_width="300dp"
+        android:layout_height="60sp"
+        android:id="@+id/name"
+        android:editable="false"
+        android:inputType="textEmailAddress"
+        android:textColor="@color/black"
+        android:drawableStart="@drawable/email_icon"
+        android:background="@drawable/edit_text"
+        android:textSize="16dp"
+        android:hint="enter your name"
+        android:textColorHint="@color/white"
+        android:layout_gravity="center"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:focusable="true"
+        android:paddingLeft="12dp"
+        android:gravity="center"
+
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="40dp"/>
+    <com.google.android.material.textfield.TextInputEditText
+        android:layout_width="300dp"
+        android:layout_height="60sp"
+        android:id="@+id/fname"
+        android:editable="false"
+        android:inputType="textEmailAddress"
+        android:textColor="@color/black"
+        android:drawableStart="@drawable/email_icon"
+        android:background="@drawable/edit_text"
+        android:textSize="16dp"
+        android:hint="enter your password"
+        android:layout_gravity="center"
+        android:textColorHint="@color/white"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:focusable="true"
+        android:paddingLeft="12dp"
+        android:gravity="center"
+
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="40dp"/>
+
+    <Button
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:textColor="@color/black"
+        android:id="@+id/users"
+        android:textSize="20sp"
+        android:layout_gravity="center"
+        android:text="View Users"
+        android:background="@drawable/button_login"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="40dp"/>
+    <Button
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:textColor="@color/black"
+        android:id="@+id/add"
+        android:textSize="20sp"
+        android:layout_gravity="center"
+        android:text="Add User"
+        android:background="@drawable/button_login"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="40dp"/>
+    <Button
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:textColor="@color/black"
+        android:id="@+id/delete"
+        android:textSize="20sp"
+        android:layout_gravity="center"
+        android:text="Delete User"
+        android:background="@drawable/button_login"
+        />
+
+
+
+</LinearLayout>
